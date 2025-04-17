@@ -1,0 +1,9 @@
+@PE.Mk2.Integrations.NetDocuments_HostAddress = http://localhost:5137
+
+GET {{PE.Mk2.Integrations.NetDocuments_HostAddress}}/healthz/live
+Accept: application/json
+
+###
+
+GET {{PE.Mk2.Integrations.NetDocuments_HostAddress}}/healthz/ready
+Accept: application/json

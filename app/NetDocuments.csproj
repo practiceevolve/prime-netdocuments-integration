@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>768c8ed9-3761-4e8f-9744-059df339f4bf</UserSecretsId>
+    <RootNamespace>PE.Mk2.Integrations.NetDocuments</RootNamespace>
+    <PackageId>PE.Mk2.Integrations.NetDocuments</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+	  <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.11.2" />
+	  <PackageReference Include="OpenTelemetry.Exporter.Prometheus.AspNetCore" Version="1.11.2-beta.1" />
+	  <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.11.2" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+	  <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+	  <PackageReference Include="Elastic.Serilog.Sinks" Version="8.12.3" />
+	  <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="7.3.1" />
+  </ItemGroup>
+
+</Project>
