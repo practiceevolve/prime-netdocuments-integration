@@ -36,7 +36,7 @@ This application serves as a **reference integration** between **Practice Evolve
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/practiceevolve/prime-netdocuments-integration
    ```
 
 2. **Configure Dev Environment**
